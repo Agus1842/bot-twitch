@@ -35,4 +35,12 @@ client.on('chat', (target, ctx, message, self) => {
     if (commandName === 'que estas jugando?') {
         client.say(target, `Estamos Jugando GTAV ${ctx.username}`)
     }
+
+    if (commandName === 'como estas?') {
+        client.say(target, `Aca pasando un buen rato`)
+    }
+
+    if (commandName === 'donde puedo donar?') {
+        client.say(target, `por link de mercado pago o por twitch`)
+    }
 })
